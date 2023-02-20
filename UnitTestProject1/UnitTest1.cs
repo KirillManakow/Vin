@@ -81,7 +81,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void Test_for_KIRILL()
         {
-            Assert.AreEqual(class1.CheckVIN("KIRILL"), false);
+            Assert.AreEqual(class1.GetVINCountry("KIRILL"), "");
         }
 
         [TestMethod]
